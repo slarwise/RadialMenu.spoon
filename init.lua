@@ -78,7 +78,7 @@ local appsScreen = {
 
 local foldersScreen = {
   top = {
-    text = "Downloads",
+    text = "⬇",
     func = function() hs.open("/Users/arvidbjurklint/Downloads") end
   },
   left = {
@@ -115,22 +115,22 @@ local utilsScreen = {
     func = function() hs.caffeinate.startScreensaver() end
   },
   left = {
-    text = "Sleep",
+    text = "  🛌",
     func = function() hs.caffeinate.systemSleep() end
   },
   right = {
-    text = "Lock",
+    text = "🔒  ",
     func = function() hs.caffeinate.lockScreen() end
   },
   bottom = {
-    text = "Shade",
+    text = "🌙",
     func = function() spoon.Shade:toggleShade() end,
   }
 }
 
 local startScreen = {
   top = {
-    text = "Apps",
+    text = "🚀",
     func = function() M:launch(appsScreen) end,
   },
   left = {
