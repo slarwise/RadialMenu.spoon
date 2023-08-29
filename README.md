@@ -1,5 +1,7 @@
 # RadialMenu.spoon
 
+![Demo](https://user-images.githubusercontent.com/25964718/264169405-0c6acc0d-1947-4f49-b8db-3ce5db538666.png)
+
 A launcher for MacOS with a radial menu selector. Built with
 [Hammerspoon](https://github.com/Hammerspoon/hammerspoon), an automation
 software for MacOS.
